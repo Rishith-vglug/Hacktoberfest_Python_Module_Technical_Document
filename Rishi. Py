@@ -1,0 +1,18 @@
+class Dog:
+    def speak(self):
+        return "Woof!"
+
+class Cat:
+    def speak(self):
+        return "Meow!"
+
+def animal_speak(animal):
+    print(animal.speak())
+
+# Create objects of Dog and Cat classes
+dog = Dog()
+cat = Cat()
+
+# Call the animal_speak function
+animal_speak(dog)  # Outputs: Woof!
+animal_speak(cat)  # Outputs: Meow!
